@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: #070b14; }
+:focus-visible { outline: 2px solid #f2b84b; outline-offset: 2px; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #1c2a42; border-radius: 4px; }
+.maplibregl-popup-content { background: #0e1626; color: #dbe4f5; border: 1px solid #1c2a42; border-radius: 8px; padding: 10px 12px; font-size: 12px; }
+.maplibregl-popup-tip { display: none; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
